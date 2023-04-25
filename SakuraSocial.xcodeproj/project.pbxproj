@@ -11,6 +11,11 @@
 		3C7BFF4E29F8181D00949CDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BFF4D29F8181D00949CDE /* ContentView.swift */; };
 		3C7BFF5029F8182000949CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7BFF4F29F8182000949CDE /* Assets.xcassets */; };
 		3C7BFF5329F8182000949CDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7BFF5229F8182000949CDE /* Preview Assets.xcassets */; };
+		3C7BFF6129F820EA00949CDE /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BFF6029F820EA00949CDE /* UploadView.swift */; };
+		3C7BFF6329F8211500949CDE /* MapSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BFF6229F8211500949CDE /* MapSearchView.swift */; };
+		3C7BFF6529F8212000949CDE /* TimelineSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BFF6429F8212000949CDE /* TimelineSearchView.swift */; };
+		3C7BFF6729F8215700949CDE /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BFF6629F8215700949CDE /* MainTabView.swift */; };
+		3C7BFF6929F8237100949CDE /* PhotosPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BFF6829F8237100949CDE /* PhotosPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		3C7BFF4D29F8181D00949CDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C7BFF4F29F8182000949CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C7BFF5229F8182000949CDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C7BFF6029F820EA00949CDE /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		3C7BFF6229F8211500949CDE /* MapSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchView.swift; sourceTree = "<group>"; };
+		3C7BFF6429F8212000949CDE /* TimelineSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineSearchView.swift; sourceTree = "<group>"; };
+		3C7BFF6629F8215700949CDE /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3C7BFF6829F8237100949CDE /* PhotosPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,8 @@
 		3C7BFF4A29F8181D00949CDE /* SakuraSocial */ = {
 			isa = PBXGroup;
 			children = (
+				3C7BFF5929F81E6D00949CDE /* View */,
 				3C7BFF4B29F8181D00949CDE /* SakuraSocialApp.swift */,
-				3C7BFF4D29F8181D00949CDE /* ContentView.swift */,
 				3C7BFF4F29F8182000949CDE /* Assets.xcassets */,
 				3C7BFF5129F8182000949CDE /* Preview Content */,
 			);
@@ -65,6 +75,59 @@
 				3C7BFF5229F8182000949CDE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C7BFF5929F81E6D00949CDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C7BFF5F29F8204C00949CDE /* Login */,
+				3C7BFF5A29F81FF300949CDE /* Upload */,
+				3C7BFF5E29F8203100949CDE /* MapSearch */,
+				3C7BFF5D29F8201C00949CDE /* TimelineSearch */,
+				3C7BFF5C29F8200F00949CDE /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C7BFF5A29F81FF300949CDE /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				3C7BFF6029F820EA00949CDE /* UploadView.swift */,
+				3C7BFF6829F8237100949CDE /* PhotosPickerView.swift */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
+		3C7BFF5C29F8200F00949CDE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3C7BFF4D29F8181D00949CDE /* ContentView.swift */,
+				3C7BFF6629F8215700949CDE /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3C7BFF5D29F8201C00949CDE /* TimelineSearch */ = {
+			isa = PBXGroup;
+			children = (
+				3C7BFF6429F8212000949CDE /* TimelineSearchView.swift */,
+			);
+			path = TimelineSearch;
+			sourceTree = "<group>";
+		};
+		3C7BFF5E29F8203100949CDE /* MapSearch */ = {
+			isa = PBXGroup;
+			children = (
+				3C7BFF6229F8211500949CDE /* MapSearchView.swift */,
+			);
+			path = MapSearch;
+			sourceTree = "<group>";
+		};
+		3C7BFF5F29F8204C00949CDE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7BFF6529F8212000949CDE /* TimelineSearchView.swift in Sources */,
+				3C7BFF6129F820EA00949CDE /* UploadView.swift in Sources */,
+				3C7BFF6329F8211500949CDE /* MapSearchView.swift in Sources */,
 				3C7BFF4E29F8181D00949CDE /* ContentView.swift in Sources */,
+				3C7BFF6929F8237100949CDE /* PhotosPickerView.swift in Sources */,
 				3C7BFF4C29F8181D00949CDE /* SakuraSocialApp.swift in Sources */,
+				3C7BFF6729F8215700949CDE /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
